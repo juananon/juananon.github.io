@@ -13,7 +13,7 @@ dotnet publish -o ./publish
 ## Prepare our project to work with Docker
 Create the Dockerfile, a basic example:
 
-``` csharp
+```
 FROM microsoft/dotnet:sdk AS build-env
 WORKDIR /ElectricCities.Users-Api
 
